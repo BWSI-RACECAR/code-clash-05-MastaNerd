@@ -115,7 +115,7 @@ class Solution:
             solutionString = ""
             for i in range(0,len(message)):
                 message = message.upper()
-                solutionString += MORSE_CODE_DICT[message[ui]]
+                solutionString += MORSE_CODE_DICT[message[i]]
                 if i < len(message):
                     solutionString += " "
             return solutionString

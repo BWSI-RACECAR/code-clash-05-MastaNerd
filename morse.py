@@ -115,6 +115,8 @@ class Solution:
             solutionString = ""
             for i in message:
                  solutionString += MORSE_CODE_DICT[i]
+		 if i < len(message):
+                      solutionString += " "
             return solutionString
 
 def main():

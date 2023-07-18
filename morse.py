@@ -114,10 +114,10 @@ class Solution:
             #TODO: Write code below to return a string with the solution to the prompt.
             solutionString = ""
             for i in range(0,len(message)):
-		 message = message.upper()
-                 solutionString += MORSE_CODE_DICT[message[i]]
-                 if i < len(message):
-                      solutionString += " "
+                message = message.upper()
+                solutionString += MORSE_CODE_DICT[message[ui]]
+                if i < len(message):
+                    solutionString += " "
             return solutionString
 
 def main():
